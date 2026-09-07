@@ -1,0 +1,13 @@
+node_modules
+
+# Track the compatibility .env and documented example; ignore local overrides.
+.env.*
+!.env.example
+
+/.cache
+/build
+.npmrc
+.specstory
+# SpecStory explanation file
+.specstory/.what-is-this.md
+/public/manifest.json
